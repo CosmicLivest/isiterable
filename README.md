@@ -9,7 +9,7 @@
 
 - Never call `__iter__`
 - Functional for generators
-- It's faster than [tryiter](https://github.com/CosmicLivest/isiterable#try-iter) or [hasiter](https://github.com/CosmicLivest/isiterable#has-iter)
+- It's faster than [tryiter](#try-iter) or [hasiter](#has-iter)
 
 ## Installation
 
@@ -95,8 +95,8 @@ if hasattr(object, "__iter__"):
 ## Benchmark
 
 This small benchmark uses 3 code blocks:
-- [tryiter](https://github.com/CosmicLivest/isiterable#try-iter)
-- [hasiter](https://github.com/CosmicLivest/isiterable#has-iter)
+- [tryiter](#try-iter)
+- [hasiter](#has-iter)
 - `isiterable(object)`
 > Where `object` is the argument to pass
 
@@ -108,4 +108,4 @@ Results of isiterable: 0.381
 Results of hasiter   : 0.777
 Results of tryiter   : 5.689
 ```
-The best result is `isiterable` while [tryiter](https://github.com/CosmicLivest/isiterable#try-iter) having the worst result.
+The best result is `isiterable` while [tryiter](#try-iter) having the worst result.
