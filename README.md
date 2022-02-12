@@ -9,7 +9,7 @@
 
 - Never call `__iter__`
 - Functional for generators
-- It's faster than `try-iter` or `has-iter`
+- It's faster than [tryiter](https://github.com/CosmicLivest/isiterable/main/README.md#try-iter) or [hasiter](https://github.com/CosmicLivest/isiterable/main/README.md#has-iter)
 
 ## Installation
 
@@ -105,7 +105,7 @@ Running [benchmark.py](https://github.com/CosmicLivest/isiterable/blob/branch/be
 Running 1,000,000 times each block of code...
 
 Results of isiterable: 0.381
-Results of hasiter: 0.777
-Results of tryiter: 5.689
+Results of hasiter   : 0.777
+Results of tryiter   : 5.689
 ```
 The best result is `isiterable` while [tryiter](https://github.com/CosmicLivest/isiterable/main/README.md#try-iter) having the worst result.
