@@ -12,7 +12,7 @@ setup(
     ),
     long_description=long_description,
     long_description_content_type="text/markdown",
-    version="1.0",
+    version="1.0.post1",
     author="CosmicLivest",
     author_email="ezequielfx15@gmail.com",
     license="Unlicense License",
