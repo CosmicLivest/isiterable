@@ -6,12 +6,15 @@
  *     >>> from isiterable import isiterable
  *     >>> class A: pass
  *     >>> class B:
- *     >>>     def __iter__():
+ *     >>>     def __iter__(self):
  *     >>>         for i in range(15):
  *     >>>             yield i
  *     >>> isiterable(A)
  *     False
  *     >>> isiterable(B)
+ *     False
+ *     >>> x = B()
+ *     >>> isiterable(x)
  *     True
  */
 
