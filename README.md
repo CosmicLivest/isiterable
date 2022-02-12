@@ -100,7 +100,7 @@ This small benchmark uses 3 code blocks:
 - `isiterable(object)`
 > Where `object` is the argument to pass
 
-Running [benchmark.py](https://github.com/CosmicLivest/isiterable/blob/branch/benchmark.md) will give results similar to this
+Running [benchmark.py](https://github.com/CosmicLivest/isiterable/blob/main/benchmark.py) will give results similar to this
 ```
 Running 1,000,000 times each block of code...
 
